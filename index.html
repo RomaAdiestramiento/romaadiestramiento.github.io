@@ -1,0 +1,2963 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="max-image-preview:large">
+	<link rel="stylesheet" id="pernl-css" href="./files/index_styles.css" media="all">
+	<title>Roma Adiestramiento</title>
+
+	<style id="wp-block-library-inline-css">
+		:root {
+			--wp-admin-theme-color: #007cba;
+			--wp-admin-theme-color--rgb: 0, 124, 186;
+			--wp-admin-theme-color-darker-10: #006ba1;
+			--wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
+			--wp-admin-theme-color-darker-20: #005a87;
+			--wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+			--wp-admin-border-width-focus: 2px;
+			--wp-block-synced-color: #7a00df;
+			--wp-block-synced-color--rgb: 122, 0, 223
+		}
+
+		@media (min-resolution:192dpi) {
+			:root {
+				--wp-admin-border-width-focus: 1.5px
+			}
+		}
+
+		.wp-element-button {
+			cursor: pointer
+		}
+
+		:root {
+			--wp--preset--font-size--normal: 16px;
+			--wp--preset--font-size--huge: 42px
+		}
+
+		:root .has-very-light-gray-background-color {
+			background-color: #eee
+		}
+
+		:root .has-very-dark-gray-background-color {
+			background-color: #313131
+		}
+
+		:root .has-very-light-gray-color {
+			color: #eee
+		}
+
+		:root .has-very-dark-gray-color {
+			color: #313131
+		}
+
+		:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+			background: linear-gradient(135deg, #00d084, #0693e3)
+		}
+
+		:root .has-purple-crush-gradient-background {
+			background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
+		}
+
+		:root .has-hazy-dawn-gradient-background {
+			background: linear-gradient(135deg, #faaca8, #dad0ec)
+		}
+
+		:root .has-subdued-olive-gradient-background {
+			background: linear-gradient(135deg, #fafae1, #67a671)
+		}
+
+		:root .has-atomic-cream-gradient-background {
+			background: linear-gradient(135deg, #fdd79a, #004a59)
+		}
+
+		:root .has-nightshade-gradient-background {
+			background: linear-gradient(135deg, #330968, #31cdcf)
+		}
+
+		:root .has-midnight-gradient-background {
+			background: linear-gradient(135deg, #020381, #2874fc)
+		}
+
+		.has-regular-font-size {
+			font-size: 1em
+		}
+
+		.has-larger-font-size {
+			font-size: 2.625em
+		}
+
+		.has-normal-font-size {
+			font-size: var(--wp--preset--font-size--normal)
+		}
+
+		.has-huge-font-size {
+			font-size: var(--wp--preset--font-size--huge)
+		}
+
+		.has-text-align-center {
+			text-align: center
+		}
+
+		.has-text-align-left {
+			text-align: left
+		}
+
+		.has-text-align-right {
+			text-align: right
+		}
+
+		#end-resizable-editor-section {
+			display: none
+		}
+
+		.aligncenter {
+			clear: both
+		}
+
+		.items-justified-left {
+			justify-content: flex-start
+		}
+
+		.items-justified-center {
+			justify-content: center
+		}
+
+		.items-justified-right {
+			justify-content: flex-end
+		}
+
+		.items-justified-space-between {
+			justify-content: space-between
+		}
+
+		.screen-reader-text {
+			clip: rect(1px, 1px, 1px, 1px);
+			word-wrap: normal !important;
+			border: 0;
+			-webkit-clip-path: inset(50%);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute;
+			width: 1px
+		}
+
+		.screen-reader-text:focus {
+			clip: auto !important;
+			background-color: #ddd;
+			-webkit-clip-path: none;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000
+		}
+
+		html :where(.has-border-color) {
+			border-style: solid
+		}
+
+		html :where([style*=border-top-color]) {
+			border-top-style: solid
+		}
+
+		html :where([style*=border-right-color]) {
+			border-right-style: solid
+		}
+
+		html :where([style*=border-bottom-color]) {
+			border-bottom-style: solid
+		}
+
+		html :where([style*=border-left-color]) {
+			border-left-style: solid
+		}
+
+		html :where([style*=border-width]) {
+			border-style: solid
+		}
+
+		html :where([style*=border-top-width]) {
+			border-top-style: solid
+		}
+
+		html :where([style*=border-right-width]) {
+			border-right-style: solid
+		}
+
+		html :where([style*=border-bottom-width]) {
+			border-bottom-style: solid
+		}
+
+		html :where([style*=border-left-width]) {
+			border-left-style: solid
+		}
+
+		html :where(img[class*=wp-image-]) {
+			height: auto;
+			max-width: 100%
+		}
+
+		:where(figure) {
+			margin: 0 0 1em
+		}
+
+		html :where(.is-position-sticky) {
+			--wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
+		}
+
+		@media screen and (max-width:600px) {
+			html :where(.is-position-sticky) {
+				--wp-admin--admin-bar--position-offset: 0px
+			}
+		}
+	</style>
+	<style id="global-styles-inline-css">
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--color--base: #f9f9f9;
+			--wp--preset--color--base-2: #ffffff;
+			--wp--preset--color--contrast: #111111;
+			--wp--preset--color--contrast-2: #636363;
+			--wp--preset--color--contrast-3: #A4A4A4;
+			--wp--preset--color--accent: #cfcabe;
+			--wp--preset--color--accent-2: #c2a990;
+			--wp--preset--color--accent-3: #d8613c;
+			--wp--preset--color--accent-4: #b1c5a4;
+			--wp--preset--color--accent-5: #b5bdbc;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--gradient--gradient-1: linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%);
+			--wp--preset--gradient--gradient-2: linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%);
+			--wp--preset--gradient--gradient-3: linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%);
+			--wp--preset--gradient--gradient-4: linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%);
+			--wp--preset--gradient--gradient-5: linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%);
+			--wp--preset--gradient--gradient-6: linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%);
+			--wp--preset--gradient--gradient-7: linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%);
+			--wp--preset--gradient--gradient-8: linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%);
+			--wp--preset--gradient--gradient-9: linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%);
+			--wp--preset--gradient--gradient-10: linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%);
+			--wp--preset--gradient--gradient-11: linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%);
+			--wp--preset--gradient--gradient-12: linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%);
+			--wp--preset--font-size--small: 0.9rem;
+			--wp--preset--font-size--medium: 1.05rem;
+			--wp--preset--font-size--large: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 0.767), 1.85rem);
+			--wp--preset--font-size--x-large: clamp(1.85rem, 1.85rem + ((1vw - 0.2rem) * 1.083), 2.5rem);
+			--wp--preset--font-size--xx-large: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 1.283), 3.27rem);
+			--wp--preset--font-family--body: "Inter", sans-serif;
+			--wp--preset--font-family--heading: Cardo;
+			--wp--preset--font-family--system-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+			--wp--preset--font-family--system-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+			--wp--preset--spacing--10: 1rem;
+			--wp--preset--spacing--20: min(1.5rem, 2vw);
+			--wp--preset--spacing--30: min(2.5rem, 3vw);
+			--wp--preset--spacing--40: min(4rem, 5vw);
+			--wp--preset--spacing--50: min(6.5rem, 8vw);
+			--wp--preset--spacing--60: min(10.5rem, 13vw);
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		body {
+			margin: 0;
+			--wp--style--global--content-size: 620px;
+			--wp--style--global--wide-size: 1280px;
+		}
+
+		.wp-site-blocks {
+			padding-top: var(--wp--style--root--padding-top);
+			padding-bottom: var(--wp--style--root--padding-bottom);
+		}
+
+		.has-global-padding {
+			padding-right: var(--wp--style--root--padding-right);
+			padding-left: var(--wp--style--root--padding-left);
+		}
+
+		.has-global-padding :where(.has-global-padding:not(.wp-block-block)) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+
+		.has-global-padding>.alignfull {
+			margin-right: calc(var(--wp--style--root--padding-right) * -1);
+			margin-left: calc(var(--wp--style--root--padding-left) * -1);
+		}
+
+		.has-global-padding :where(.has-global-padding:not(.wp-block-block))>.alignfull {
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		.has-global-padding>.alignfull:where(:not(.has-global-padding):not(.is-layout-flex):not(.is-layout-grid))> :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]), p, h1, h2, h3, h4, h5, h6, ul, ol) {
+			padding-right: var(--wp--style--root--padding-right);
+			padding-left: var(--wp--style--root--padding-left);
+		}
+
+		.has-global-padding :where(.has-global-padding)>.alignfull:where(:not(.has-global-padding))> :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]), p, h1, h2, h3, h4, h5, h6, ul, ol) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+
+		.wp-site-blocks>.alignleft {
+			float: left;
+			margin-right: 2em;
+		}
+
+		.wp-site-blocks>.alignright {
+			float: right;
+			margin-left: 2em;
+		}
+
+		.wp-site-blocks>.aligncenter {
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		:where(.wp-site-blocks)>* {
+			margin-block-start: 1.2rem;
+			margin-block-end: 0;
+		}
+
+		:where(.wp-site-blocks)> :first-child:first-child {
+			margin-block-start: 0;
+		}
+
+		:where(.wp-site-blocks)> :last-child:last-child {
+			margin-block-end: 0;
+		}
+
+		body {
+			--wp--style--block-gap: 1.2rem;
+		}
+
+		:where(body .is-layout-flow)> :first-child:first-child {
+			margin-block-start: 0;
+		}
+
+		:where(body .is-layout-flow)> :last-child:last-child {
+			margin-block-end: 0;
+		}
+
+		:where(body .is-layout-flow)>* {
+			margin-block-start: 1.2rem;
+			margin-block-end: 0;
+		}
+
+		:where(body .is-layout-constrained)> :first-child:first-child {
+			margin-block-start: 0;
+		}
+
+		:where(body .is-layout-constrained)> :last-child:last-child {
+			margin-block-end: 0;
+		}
+
+		:where(body .is-layout-constrained)>* {
+			margin-block-start: 1.2rem;
+			margin-block-end: 0;
+		}
+
+		:where(body .is-layout-flex) {
+			gap: 1.2rem;
+		}
+
+		:where(body .is-layout-grid) {
+			gap: 1.2rem;
+		}
+
+		body .is-layout-flow>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-flow>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-flow>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-constrained>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-constrained>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+			max-width: var(--wp--style--global--content-size);
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignwide {
+			max-width: var(--wp--style--global--wide-size);
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		body .is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		body .is-layout-flex>* {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		body .is-layout-grid>* {
+			margin: 0;
+		}
+
+		body {
+			background-color: var(--wp--preset--color--base);
+			color: var(--wp--preset--color--contrast);
+			font-family: var(--wp--preset--font-family--body);
+			font-size: var(--wp--preset--font-size--medium);
+			font-style: normal;
+			font-weight: 400;
+			line-height: 1.55;
+			--wp--style--root--padding-top: 0px;
+			--wp--style--root--padding-right: var(--wp--preset--spacing--50);
+			--wp--style--root--padding-bottom: 0px;
+			--wp--style--root--padding-left: var(--wp--preset--spacing--50);
+		}
+
+		a:where(:not(.wp-element-button)) {
+			color: var(--wp--preset--color--contrast);
+			text-decoration: underline;
+		}
+
+		a:where(:not(.wp-element-button)):hover {
+			text-decoration: none;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: var(--wp--preset--color--contrast);
+			font-family: var(--wp--preset--font-family--heading);
+			font-weight: 400;
+			line-height: 1.2;
+		}
+
+		h1 {
+			font-size: var(--wp--preset--font-size--xx-large);
+			line-height: 1.15;
+		}
+
+		h2 {
+			font-size: var(--wp--preset--font-size--x-large);
+		}
+
+		h3 {
+			font-size: var(--wp--preset--font-size--large);
+		}
+
+		h4 {
+			font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem);
+		}
+
+		h5 {
+			font-size: var(--wp--preset--font-size--medium);
+		}
+
+		h6 {
+			font-size: var(--wp--preset--font-size--small);
+		}
+
+		.wp-element-button,
+		.wp-block-button__link {
+			background-color: var(--wp--preset--color--contrast);
+			border-radius: .33rem;
+			border-color: var(--wp--preset--color--contrast);
+			border-width: 0;
+			color: var(--wp--preset--color--base);
+			font-family: inherit;
+			font-size: var(--wp--preset--font-size--small);
+			font-style: normal;
+			font-weight: 500;
+			line-height: inherit;
+			padding-top: 0.6rem;
+			padding-right: 1rem;
+			padding-bottom: 0.6rem;
+			padding-left: 1rem;
+			text-decoration: none;
+		}
+
+		.wp-element-button:hover,
+		.wp-block-button__link:hover {
+			background-color: var(--wp--preset--color--contrast-2);
+			border-color: var(--wp--preset--color--contrast-2);
+			color: var(--wp--preset--color--base);
+		}
+
+		.wp-element-button:focus,
+		.wp-block-button__link:focus {
+			background-color: var(--wp--preset--color--contrast-2);
+			border-color: var(--wp--preset--color--contrast-2);
+			color: var(--wp--preset--color--base);
+			outline-color: var(--wp--preset--color--contrast);
+			outline-offset: 2px;
+			outline-style: dotted;
+			outline-width: 1px;
+		}
+
+		.wp-element-button:active,
+		.wp-block-button__link:active {
+			background-color: var(--wp--preset--color--contrast);
+			color: var(--wp--preset--color--base);
+		}
+
+		.wp-element-caption,
+		.wp-block-audio figcaption,
+		.wp-block-embed figcaption,
+		.wp-block-gallery figcaption,
+		.wp-block-image figcaption,
+		.wp-block-table figcaption,
+		.wp-block-video figcaption {
+			color: var(--wp--preset--color--contrast-2);
+			font-family: var(--wp--preset--font-family--body);
+			font-size: 0.8rem;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-base-color {
+			color: var(--wp--preset--color--base) !important;
+		}
+
+		.has-base-2-color {
+			color: var(--wp--preset--color--base-2) !important;
+		}
+
+		.has-contrast-color {
+			color: var(--wp--preset--color--contrast) !important;
+		}
+
+		.has-contrast-2-color {
+			color: var(--wp--preset--color--contrast-2) !important;
+		}
+
+		.has-contrast-3-color {
+			color: var(--wp--preset--color--contrast-3) !important;
+		}
+
+		.has-accent-color {
+			color: var(--wp--preset--color--accent) !important;
+		}
+
+		.has-accent-2-color {
+			color: var(--wp--preset--color--accent-2) !important;
+		}
+
+		.has-accent-3-color {
+			color: var(--wp--preset--color--accent-3) !important;
+		}
+
+		.has-accent-4-color {
+			color: var(--wp--preset--color--accent-4) !important;
+		}
+
+		.has-accent-5-color {
+			color: var(--wp--preset--color--accent-5) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-base-background-color {
+			background-color: var(--wp--preset--color--base) !important;
+		}
+
+		.has-base-2-background-color {
+			background-color: var(--wp--preset--color--base-2) !important;
+		}
+
+		.has-contrast-background-color {
+			background-color: var(--wp--preset--color--contrast) !important;
+		}
+
+		.has-contrast-2-background-color {
+			background-color: var(--wp--preset--color--contrast-2) !important;
+		}
+
+		.has-contrast-3-background-color {
+			background-color: var(--wp--preset--color--contrast-3) !important;
+		}
+
+		.has-accent-background-color {
+			background-color: var(--wp--preset--color--accent) !important;
+		}
+
+		.has-accent-2-background-color {
+			background-color: var(--wp--preset--color--accent-2) !important;
+		}
+
+		.has-accent-3-background-color {
+			background-color: var(--wp--preset--color--accent-3) !important;
+		}
+
+		.has-accent-4-background-color {
+			background-color: var(--wp--preset--color--accent-4) !important;
+		}
+
+		.has-accent-5-background-color {
+			background-color: var(--wp--preset--color--accent-5) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-base-border-color {
+			border-color: var(--wp--preset--color--base) !important;
+		}
+
+		.has-base-2-border-color {
+			border-color: var(--wp--preset--color--base-2) !important;
+		}
+
+		.has-contrast-border-color {
+			border-color: var(--wp--preset--color--contrast) !important;
+		}
+
+		.has-contrast-2-border-color {
+			border-color: var(--wp--preset--color--contrast-2) !important;
+		}
+
+		.has-contrast-3-border-color {
+			border-color: var(--wp--preset--color--contrast-3) !important;
+		}
+
+		.has-accent-border-color {
+			border-color: var(--wp--preset--color--accent) !important;
+		}
+
+		.has-accent-2-border-color {
+			border-color: var(--wp--preset--color--accent-2) !important;
+		}
+
+		.has-accent-3-border-color {
+			border-color: var(--wp--preset--color--accent-3) !important;
+		}
+
+		.has-accent-4-border-color {
+			border-color: var(--wp--preset--color--accent-4) !important;
+		}
+
+		.has-accent-5-border-color {
+			border-color: var(--wp--preset--color--accent-5) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-gradient-1-gradient-background {
+			background: var(--wp--preset--gradient--gradient-1) !important;
+		}
+
+		.has-gradient-2-gradient-background {
+			background: var(--wp--preset--gradient--gradient-2) !important;
+		}
+
+		.has-gradient-3-gradient-background {
+			background: var(--wp--preset--gradient--gradient-3) !important;
+		}
+
+		.has-gradient-4-gradient-background {
+			background: var(--wp--preset--gradient--gradient-4) !important;
+		}
+
+		.has-gradient-5-gradient-background {
+			background: var(--wp--preset--gradient--gradient-5) !important;
+		}
+
+		.has-gradient-6-gradient-background {
+			background: var(--wp--preset--gradient--gradient-6) !important;
+		}
+
+		.has-gradient-7-gradient-background {
+			background: var(--wp--preset--gradient--gradient-7) !important;
+		}
+
+		.has-gradient-8-gradient-background {
+			background: var(--wp--preset--gradient--gradient-8) !important;
+		}
+
+		.has-gradient-9-gradient-background {
+			background: var(--wp--preset--gradient--gradient-9) !important;
+		}
+
+		.has-gradient-10-gradient-background {
+			background: var(--wp--preset--gradient--gradient-10) !important;
+		}
+
+		.has-gradient-11-gradient-background {
+			background: var(--wp--preset--gradient--gradient-11) !important;
+		}
+
+		.has-gradient-12-gradient-background {
+			background: var(--wp--preset--gradient--gradient-12) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		.has-xx-large-font-size {
+			font-size: var(--wp--preset--font-size--xx-large) !important;
+		}
+
+		.has-body-font-family {
+			font-family: var(--wp--preset--font-family--body) !important;
+		}
+
+		.has-heading-font-family {
+			font-family: var(--wp--preset--font-family--heading) !important;
+		}
+
+		.has-system-sans-serif-font-family {
+			font-family: var(--wp--preset--font-family--system-sans-serif) !important;
+		}
+
+		.has-system-serif-font-family {
+			font-family: var(--wp--preset--font-family--system-serif) !important;
+		}
+
+
+		/** Start Block Kit CSS: 141-3-1d55f1e76be9fb1a8d9de88accbe962f **/
+
+		.envato-kit-138-bracket .elementor-widget-container>*:before {
+			content: "[";
+			color: #ffab00;
+			display: inline-block;
+			margin-right: 4px;
+			line-height: 1em;
+			position: relative;
+			top: -1px;
+		}
+
+		.envato-kit-138-bracket .elementor-widget-container>*:after {
+			content: "]";
+			color: #ffab00;
+			display: inline-block;
+			margin-left: 4px;
+			line-height: 1em;
+			position: relative;
+			top: -1px;
+		}
+
+		/** End Block Kit CSS: 141-3-1d55f1e76be9fb1a8d9de88accbe962f **/
+
+
+
+		/** Start Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
+
+		.envato-block__preview {
+			overflow: visible;
+		}
+
+		/** End Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
+
+
+
+		/** Start Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+		.envato-block__preview {
+			overflow: visible;
+		}
+
+		/* Envato Kit 141 Custom Styles - Applied to the element under Advanced */
+
+		.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper {
+			text-align: center;
+		}
+
+		.envato-kit-141-top-0 h1,
+		.envato-kit-141-top-0 h2,
+		.envato-kit-141-top-0 h3,
+		.envato-kit-141-top-0 h4,
+		.envato-kit-141-top-0 h5,
+		.envato-kit-141-top-0 h6,
+		.envato-kit-141-top-0 p {
+			margin-top: 0;
+		}
+
+		.envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+
+		.envato-kit-141-bottom-0 p {
+			margin-bottom: 0;
+		}
+
+		.envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+			margin-bottom: .5rem;
+		}
+
+		.envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container {
+			padding-bottom: 52px;
+		}
+
+		.envato-kit-141-display-inline {
+			display: inline-block;
+		}
+
+		.envato-kit-141 .elementor-slick-slider ul.slick-dots {
+			bottom: -40px;
+		}
+
+		/** End Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+
+
+		/** Start Block Kit CSS: 33-3-f2d4515681d0cdeb2a000d0405e47669 **/
+
+		.envato-kit-30-phone-overlay {
+			position: absolute !important;
+			display: block !important;
+			top: 0%;
+			left: 0%;
+			right: 0%;
+			margin: auto;
+			z-index: 1;
+		}
+
+		.envato-kit-30-div-rotate {
+			transform: rotate(90deg);
+		}
+
+		/** End Block Kit CSS: 33-3-f2d4515681d0cdeb2a000d0405e47669 **/
+
+
+
+		/** Start Block Kit CSS: 136-3-fc37602abad173a9d9d95d89bbe6bb80 **/
+
+		.envato-block__preview {
+			overflow: visible !important;
+		}
+
+		/** End Block Kit CSS: 136-3-fc37602abad173a9d9d95d89bbe6bb80 **/
+
+
+
+		/** Start Block Kit CSS: 69-3-4f8cfb8a1a68ec007f2be7a02bdeadd9 **/
+
+		.envato-kit-66-menu .e--pointer-framed .elementor-item:before {
+			border-radius: 1px;
+		}
+
+		.envato-kit-66-subscription-form .elementor-form-fields-wrapper {
+			position: relative;
+		}
+
+		.envato-kit-66-subscription-form .elementor-form-fields-wrapper .elementor-field-type-submit {
+			position: static;
+		}
+
+		.envato-kit-66-subscription-form .elementor-form-fields-wrapper .elementor-field-type-submit button {
+			position: absolute;
+			top: 50%;
+			right: 6px;
+			transform: translate(0, -50%);
+			-moz-transform: translate(0, -50%);
+			-webmit-transform: translate(0, -50%);
+		}
+
+		.envato-kit-66-testi-slider .elementor-testimonial__footer {
+			margin-top: -60px !important;
+			z-index: 99;
+			position: relative;
+		}
+
+		.envato-kit-66-featured-slider .elementor-slides .slick-prev {
+			width: 50px;
+			height: 50px;
+			background-color: #ffffff !important;
+			transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			left: -25px !important;
+			-webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+			-moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+			box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+		}
+
+		.envato-kit-66-featured-slider .elementor-slides .slick-prev:before {
+			display: block;
+			margin-top: 0px;
+			margin-left: 0px;
+			transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+		}
+
+		.envato-kit-66-featured-slider .elementor-slides .slick-next {
+			width: 50px;
+			height: 50px;
+			background-color: #ffffff !important;
+			transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			right: -25px !important;
+			-webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+			-moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+			box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+		}
+
+		.envato-kit-66-featured-slider .elementor-slides .slick-next:before {
+			display: block;
+			margin-top: -5px;
+			margin-right: -5px;
+			transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+		}
+
+		.envato-kit-66-orangetext {
+			color: #f4511e;
+		}
+
+		.envato-kit-66-countdown .elementor-countdown-label {
+			display: inline-block !important;
+			border: 2px solid rgba(255, 255, 255, 0.2);
+			padding: 9px 20px;
+		}
+
+		/** End Block Kit CSS: 69-3-4f8cfb8a1a68ec007f2be7a02bdeadd9 **/
+
+		.wp-block-calendar.wp-block-calendar table:where(:not(.has-text-color)) th {
+			background-color: var(--wp--preset--color--contrast-2);
+			color: var(--wp--preset--color--base);
+			border-color: var(--wp--preset--color--contrast-2)
+		}
+
+		.wp-block-calendar table:where(:not(.has-text-color)) td {
+			border-color: var(--wp--preset--color--contrast-2)
+		}
+
+		.wp-block-categories {}
+
+		.wp-block-categories {
+			list-style-type: none;
+		}
+
+		.wp-block-categories li {
+			margin-bottom: 0.5rem;
+		}
+
+		.wp-block-post-comments-form {}
+
+		.wp-block-post-comments-form textarea,
+		.wp-block-post-comments-form input {
+			border-radius: .33rem
+		}
+
+		.wp-block-loginout {}
+
+		.wp-block-loginout input {
+			border-radius: .33rem;
+			padding: calc(0.667em + 2px);
+			border: 1px solid #949494;
+		}
+
+		.wp-block-post-terms {}
+
+		.wp-block-post-terms .wp-block-post-terms__prefix {
+			color: var(--wp--preset--color--contrast-2);
+		}
+
+		.wp-block-query-title {}
+
+		.wp-block-query-title span {
+			font-style: italic;
+		}
+
+		.wp-block-quote {}
+
+		.wp-block-quote :where(p) {
+			margin-block-start: 0;
+			margin-block-end: calc(var(--wp--preset--spacing--10) + 0.5rem);
+		}
+
+		.wp-block-quote :where(:last-child) {
+			margin-block-end: 0;
+		}
+
+		.wp-block-quote.has-text-align-right.is-style-plain,
+		.rtl .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-left) {
+			border-width: 0 2px 0 0;
+			padding-left: calc(var(--wp--preset--spacing--20) + 0.5rem);
+			padding-right: calc(var(--wp--preset--spacing--20) + 0.5rem);
+		}
+
+		.wp-block-quote.has-text-align-left.is-style-plain,
+		body:not(.rtl) .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-right) {
+			border-width: 0 0 0 2px;
+			padding-left: calc(var(--wp--preset--spacing--20) + 0.5rem);
+			padding-right: calc(var(--wp--preset--spacing--20) + 0.5rem)
+		}
+
+		.wp-block-search {}
+
+		.wp-block-search .wp-block-search__input {
+			border-radius: .33rem
+		}
+
+		.wp-block-separator {}
+
+		.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull) {
+			width: var(--wp--preset--spacing--60)
+		}
+	</style>
+	<style id="wp-block-template-skip-link-inline-css">
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px, 1px, 1px, 1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+	</style>
+	<link rel="stylesheet" id="cookie-notice-front-css" href="./aviso_legal_files/front.min.css" media="all">
+	<link rel="stylesheet" id="elementor-frontend-css" href="./index_files
+	/frontend-lite.min.css" media="all">
+	<link rel="stylesheet" id="swiper-css" href="./index_files
+	/swiper.min.css" media="all">
+	<link rel="stylesheet" id="elementor-post-95-css" href="./index_files
+	/post-95.css" media="all">
+	<link rel="stylesheet" id="elementor-post-312-css" href="./index_files
+	/post-312.css" media="all">
+	<script src="./index_files
+	/jquery.min.js.descarga" id="jquery-core-js"></script>
+	<script async="" id="cookie-notice-front-js-before">
+		var cnArgs = { "ajaxUrl": "http:\/\/localhost\/romaadi\/wp-admin\/admin-ajax.php", "nonce": "b3a0696840", "hideEffect": "fade", "position": "bottom", "onScroll": false, "onScrollOffset": 100, "onClick": false, "cookieName": "cookie_notice_accepted", "cookieTime": 2592000, "cookieTimeRejected": 2592000, "globalCookie": false, "redirection": false, "cache": false, "revokeCookies": false, "revokeCookiesOpt": "automatic" };
+	</script>
+	<script async="" src="./aviso_legal_files/front.min.js.descarga" id="cookie-notice-front-js"></script>
+	<style id="wp-fonts-local">
+		@font-face {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 300 900;
+			font-display: fallback;
+			src: url('./files/fonts/Inter-VariableFont_slnt\,wght.woff2') format('woff2');
+			font-stretch: normal;
+		}
+
+		@font-face {
+			font-family: Cardo;
+			font-style: normal;
+			font-weight: 400;
+			font-display: fallback;
+			src: url('./files/fonts/cardo_normal_400.woff2') format('woff2');
+		}
+
+		@font-face {
+			font-family: Cardo;
+			font-style: italic;
+			font-weight: 400;
+			font-display: fallback;
+			src: url('./files/fonts/cardo_italic_400.woff2') format('woff2');
+		}
+
+		@font-face {
+			font-family: Cardo;
+			font-style: normal;
+			font-weight: 700;
+			font-display: fallback;
+			src: url('./files/fonts/cardo_normal_700.woff2') format('woff2');
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+</head>
+
+
+<body
+	class="page-template page-template-elementor_canvas page page-id-312 logged-in admin-bar no-customize-support wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-95 elementor-page elementor-page-312 dialog-body dialog-buttons-body dialog-container dialog-buttons-container e--ua-blink e--ua-chrome e--ua-webkit"
+	data-elementor-device-mode="desktop">
+	<div data-elementor-type="wp-page" data-elementor-id="312" class="elementor elementor-312">
+		<div class="elementor-element elementor-element-225c043c e-flex e-con-boxed e-con e-parent" data-id="225c043c"
+			data-element_type="container"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+			data-core-v316-plus="true">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5592b60c e-con-full e-flex e-con e-child"
+					data-id="5592b60c" data-element_type="container"
+					data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-7a85e2b1 elementor-widget elementor-widget-image"
+						data-id="7a85e2b1" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<style>
+								/*! elementor - v3.19.0 - 07-02-2024 */
+								.elementor-widget-image {
+									text-align: center
+								}
+
+								.elementor-widget-image a {
+									display: inline-block
+								}
+
+								.elementor-widget-image a img[src$=".svg"] {
+									width: 48px
+								}
+
+								.elementor-widget-image img {
+									vertical-align: middle;
+									display: inline-block
+								}
+							</style> <img fetchpriority="high" decoding="async" width="2048" height="2048" src="./index_files
+								/logo-a-color-con-letras.png" class="attachment-full size-full wp-image-131" alt="Roma adiestramiento canino"
+								sizes="(max-width: 2048px) 100vw, 2048px">
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-6d745004 e-con-full e-flex e-con e-child"
+					data-id="6d745004" data-element_type="container"
+					data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-4f95e7c8 elementor-widget elementor-widget-spacer"
+						data-id="4f95e7c8" data-element_type="widget" data-widget_type="spacer.default">
+						<div class="elementor-widget-container">
+							<style>
+								/*! elementor - v3.19.0 - 07-02-2024 */
+								.elementor-column .elementor-spacer-inner {
+									height: var(--spacer-size)
+								}
+
+								.e-con {
+									--container-widget-width: 100%
+								}
+
+								.e-con-inner>.elementor-widget-spacer,
+								.e-con>.elementor-widget-spacer {
+									width: var(--container-widget-width, var(--spacer-size));
+									--align-self: var(--container-widget-align-self, initial);
+									--flex-shrink: 0
+								}
+
+								.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,
+								.e-con>.elementor-widget-spacer>.elementor-widget-container {
+									height: 100%;
+									width: 100%
+								}
+
+								.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,
+								.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer {
+									height: 100%
+								}
+
+								.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,
+								.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner {
+									height: var(--container-widget-height, var(--spacer-size))
+								}
+
+								.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,
+								.e-con>.elementor-widget-spacer.elementor-widget-empty {
+									position: relative;
+									min-height: 22px;
+									min-width: 22px
+								}
+
+								.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,
+								.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon {
+									position: absolute;
+									top: 0;
+									bottom: 0;
+									left: 0;
+									right: 0;
+									margin: auto;
+									padding: 0;
+									width: 22px;
+									height: 22px
+								}
+							</style>
+							<div class="elementor-spacer">
+								<div class="elementor-spacer-inner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-7574d186 elementor-widget elementor-widget-text-editor"
+						data-id="7574d186" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+							<style>
+								/*! elementor - v3.19.0 - 07-02-2024 */
+								.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+									background-color: #69727d;
+									color: #fff
+								}
+
+								.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+									color: #69727d;
+									border: 3px solid;
+									background-color: transparent
+								}
+
+								.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+									margin-top: 8px
+								}
+
+								.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+									width: 1em;
+									height: 1em
+								}
+
+								.elementor-widget-text-editor .elementor-drop-cap {
+									float: left;
+									text-align: center;
+									line-height: 1;
+									font-size: 50px
+								}
+
+								.elementor-widget-text-editor .elementor-drop-cap-letter {
+									display: inline-block
+								}
+							</style>
+							<p><a href="./index.html" data-wplink-url-error="true">Inicio</a>
+							</p>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-ac48c4 elementor-widget elementor-widget-spacer"
+						data-id="ac48c4" data-element_type="widget" data-widget_type="spacer.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+								<div class="elementor-spacer-inner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-32057442 elementor-widget elementor-widget-text-editor"
+						data-id="32057442" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+							<p><a href="./Sobre_nosotros.html" data-wplink-url-error="true">Sobre
+									Nosotros</a></p>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-2b71f618 elementor-widget elementor-widget-spacer"
+						data-id="2b71f618" data-element_type="widget" data-widget_type="spacer.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+								<div class="elementor-spacer-inner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-c15e15a elementor-widget elementor-widget-text-editor"
+						data-id="c15e15a" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+							<p><a href="./decalogo.html" data-wplink-url-error="true" data-wplink-edit="true">Decálogo
+									canino</a></p>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-4bb42d83 elementor-widget elementor-widget-spacer"
+						data-id="4bb42d83" data-element_type="widget" data-widget_type="spacer.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+								<div class="elementor-spacer-inner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-4d6ed921 elementor-widget elementor-widget-text-editor"
+						data-id="4d6ed921" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+							<p><a href="./dudas_frecuentes.html" data-wplink-url-error="true">Dudas
+									Frecuentes</a></p>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-2fb97295 elementor-widget elementor-widget-spacer"
+						data-id="2fb97295" data-element_type="widget" data-widget_type="spacer.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+								<div class="elementor-spacer-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-4216bb76 e-con-full e-flex e-con e-child"
+					data-id="4216bb76" data-element_type="container"
+					data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-7e83e3d7 elementor-align-right elementor-widget elementor-widget-button"
+						data-id="7e83e3d7" data-element_type="widget" data-widget_type="button.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-sm"
+									href="./contacto.html">
+									<span class="elementor-button-content-wrapper">
+										<span class="elementor-button-text">Contacto</span>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-63334c25 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default animated fadeIn"
+			data-id="63334c25" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14350404"
+					data-id="14350404" data-element_type="column">
+					<div class="elementor-widget-wrap">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-188b8512 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="188b8512" data-element_type="section">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-813ccc1"
+					data-id="813ccc1" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-708c47fd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="708c47fd" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-18a76a45"
+									data-id="18a76a45" data-element_type="column">
+									<div class="elementor-widget-wrap">
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-16245f44"
+									data-id="16245f44" data-element_type="column">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-48aba75e elementor-widget elementor-widget-heading"
+											data-id="48aba75e" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<style>
+													/*! elementor - v3.19.0 - 07-02-2024 */
+													.elementor-heading-title {
+														padding: 0;
+														margin: 0;
+														line-height: 1
+													}
+
+													.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+														color: inherit;
+														font-size: inherit;
+														line-height: inherit
+													}
+
+													.elementor-widget-heading .elementor-heading-title.elementor-size-small {
+														font-size: 15px
+													}
+
+													.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+														font-size: 19px
+													}
+
+													.elementor-widget-heading .elementor-heading-title.elementor-size-large {
+														font-size: 29px
+													}
+
+													.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+														font-size: 39px
+													}
+
+													.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+														font-size: 59px
+													}
+												</style>
+												<h1 class="elementor-heading-title elementor-size-default">Roma
+													Adiestramiento, especialistas en educación canina</h1>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-3ecd49c6 elementor-widget elementor-widget-text-editor"
+											data-id="3ecd49c6" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>En Roma Adiestramiento, no solo transformamos comportamientos,
+													creamos conexiones perdurables garantizando una convivencia
+													armoniosa y plena.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-6b39ac15 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="6b39ac15" data-element_type="section">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5aa295aa"
+					data-id="5aa295aa" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-33261cab elementor-widget elementor-widget-heading animated fadeInUp"
+							data-id="33261cab" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">Nuestros servicios</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-676af988 elementor-widget__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp"
+							data-id="676af988" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}"
+							data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p>Podéis contactar con nosotros de lunes a sábado de 9:30 a 21:00 horas. Estaremos
+									encantados de responder a todas vuestras dudas, proporcionar toda la información y
+									ayuda posible. No dudéis en contactar con nosotros.</p>
+							</div>
+						</div>
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-43bfad14 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="43bfad14" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4face097 animated fadeInUp"
+									data-id="4face097" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-2f741296 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
+											data-id="2f741296" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img decoding="async" width="64" height="64" src="./index_files
+													/dog-house.png" class="attachment-large size-large wp-image-372" alt="">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-60ee8b06 elementor-widget elementor-widget-heading"
+											data-id="60ee8b06" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Trabajos a
+													domicilio</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-7b241cc4 elementor-widget elementor-widget-text-editor"
+											data-id="7b241cc4" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Somos especialistas en servicios a domicilio de adiestramiento,
+													educación, modificación de conductas y gestión emocional canina.
+													Adaptamos nuestras sesiones a las necesidades de cada perro, así
+													como las de su tutor. <br>Nuestro trabajo se basa en crear una
+													sólida relación y vínculo entre el perro y el humano, desde el
+													respeto y la comprensión, entendiendo la etología del perro y sus
+													necesidades específicas. Contactad con nosotros para obtener más
+													información y aclarar todas vuestras dudas.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3fcdc644 animated fadeInUp"
+									data-id="3fcdc644" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;300&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-1a395fc elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
+											data-id="1a395fc" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img decoding="async" width="64" height="64" src="./index_files
+													/adoption.png" class="attachment-large size-large wp-image-373" alt="">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-68150238 elementor-widget elementor-widget-heading"
+											data-id="68150238" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Colaboración
+													con protectoras y adoptantes</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-4b0e29b3 elementor-widget elementor-widget-text-editor"
+											data-id="4b0e29b3" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Estamos especializados en rehabilitación, adaptación y educación de
+													perros adoptados y rescatados. Colaboramos con diversas protectoras
+													para facilitar y aumentar la adaptación y adaptación de perros en
+													sus nuevos hogares. No dudes en contactar con nosotros, si es tu
+													caso, para más información.<br><br></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-f5d3f31 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="f5d3f31" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-794ce6c animated fadeInUp"
+									data-id="794ce6c" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-25bd84db elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
+											data-id="25bd84db" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="64" height="64" src="./index_files
+													/dog-training-1.png" class="attachment-large size-large wp-image-374" alt="">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-55a64d98 elementor-widget elementor-widget-heading"
+											data-id="55a64d98" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Paseos
+													grupales y de socialización</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-78a23488 elementor-widget elementor-widget-text-editor"
+											data-id="78a23488" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Organizamos paseos en grupo por distintos parques de Madrid,
+													trabajamos la socialización, gestión de estímulos, y actividades en
+													grupo con nuestros perros. Además, fomentamos una mayor atención y
+													vinculación de los perros con sus tutores y guías. Para obtener más
+													detalles sobre fechas y horarios, no dudes en contactar con
+													nosotros.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7106405b animated fadeInUp"
+									data-id="7106405b" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;300&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-72985007 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
+											data-id="72985007" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="64" height="64" src="./index_files
+													/dog-1.png" class="attachment-large size-large wp-image-375" alt="">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-1c9eb618 elementor-widget elementor-widget-heading"
+											data-id="1c9eb618" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Cursos de
+													cachorros y preadolescentes</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-7368a969 elementor-widget elementor-widget-text-editor"
+											data-id="7368a969" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Cursos grupales diseñados para comprender y trabajar con nuestros
+													perros, así como con otros perros de edad aproximada, durante esta
+													etapa tan importante de su aprendizaje, socialización y adaptación.
+													Aprenderás a prevenir problemas futuros o, al menos, a gestionarlos.
+													Para obtener más información sobre fechas y lugares de realización
+													de nuestros cursos, no dudes en contactarnos.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-4d6ee050 elementor-section-full_width elementor-section-height-default elementor-section-height-default animated fadeIn"
+			data-id="4d6ee050" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4db80e40"
+					data-id="4db80e40" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-2bb97617 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="2bb97617" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4a3f9a2d"
+									data-id="4a3f9a2d" data-element_type="column">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-3a82287e elementor-widget elementor-widget-heading animated fadeInUp"
+											data-id="3a82287e" data-element_type="widget"
+											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h2 class="elementor-heading-title elementor-size-default">¿Por qué
+													elegir nuestros servicios?</h2>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-589b4d90 elementor-widget__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp"
+											data-id="589b4d90" data-element_type="widget"
+											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-5a31bfa6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="5a31bfa6" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-56c24412 animated fadeInUp"
+									data-id="56c24412" data-element_type="column"
+									data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-759bde9d elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-heading"
+											data-id="759bde9d" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">01</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-d8be9ca elementor-widget elementor-widget-heading"
+											data-id="d8be9ca" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Expertos en
+													educación y rehabilitación canina</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-a6c5aa4 elementor-widget elementor-widget-text-editor"
+											data-id="a6c5aa4" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Contamos con un alto porcentaje de éxito en educación y
+													rehabilitación canina, tanto colaborando con asociaciones como
+													atendiendo a propietarios particulares.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-64e4d8a0 animated fadeInUp"
+									data-id="64e4d8a0" data-element_type="column"
+									data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;300&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-261716b3 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-heading"
+											data-id="261716b3" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">02</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-76460f1f elementor-widget elementor-widget-heading"
+											data-id="76460f1f" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Respetamos la
+													integridad y el bienestar del perro</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-7fed2bbd elementor-widget elementor-widget-text-editor"
+											data-id="7fed2bbd" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Nuestra forma de trabajo se basa principalmente en la etología. Al
+													entender y respetar la forma de comunicación natural de cada perro,
+													logramos influir en su comportamiento, construyendo relaciones más
+													armoniosas.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-554d5f19 animated fadeInUp"
+									data-id="554d5f19" data-element_type="column"
+									data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;600&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-75759286 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-heading"
+											data-id="75759286" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">03</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-345cf661 elementor-widget elementor-widget-heading"
+											data-id="345cf661" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Trabajamos
+													fortalecer el vínculo entre tutor y perro</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-13c7f98b elementor-widget elementor-widget-text-editor"
+											data-id="13c7f98b" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Nos enfocamos en mejorar el vínculo entre el tutor y el perro,
+													involucrándolos activamente en procesos de aprendizaje lúdicos y
+													divertidos.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-42fb0c17 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="42fb0c17" data-element_type="section">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-672ab080"
+					data-id="672ab080" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-744a4e4e elementor-widget__width-initial elementor-widget elementor-widget-image animated fadeInLeft"
+							data-id="744a4e4e" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="1152" height="1536" src="./index_files
+									/IMG_6734-1152x1536.jpg" class="attachment-1536x1536 size-1536x1536 wp-image-379" alt=""
+									sizes="(max-width: 1152px) 100vw, 1152px">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7b7cbcc6"
+					data-id="7b7cbcc6" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-34d53fcf elementor-widget elementor-widget-heading animated fadeInUp"
+							data-id="34d53fcf" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">La historia de Merlín</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-36e9b2c1 elementor-widget elementor-widget-text-editor animated fadeInUp"
+							data-id="36e9b2c1" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;500&quot;}"
+							data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p class="justificado">“En septiembre de 2018, adoptamos a Merlín. Fue un auténtico
+									flechazo en el refugio
+									Nueva Vida. Su aspecto bonachón, con mezcla de Golden Retriever, le hacía
+									irresistible. Llegó a casa con un estrés tremendo, babeando sin parar y no pudo
+									hacer pis hasta pasados dos días. Poco a poco se fue relajando y nos dimos cuenta de
+									que tenía un comportamiento agresivo, primero con otros perros. No nos podíamos
+									acercar y reaccionaba como un resorte contra ellos. Era imposible oler a otros o
+									dejarse oler. Después también con las personas, chicos, niños y, en general, todo
+									aquel que no fuera del núcleo familiar. No podía venir nadie o acercarse a él y
+									mucho menos tocarle. En casa era, sin embargo, un oso amoroso. El perro más dulce y
+									cariñoso.</p>
+								<p class="justificado">Oscar empezó enseguida a trabajar con nosotros. Nunca habíamos
+									tenido un perro
+									agresivo; no teníamos ni idea… Pero con Oscar, enseguida comprendimos que todo es
+									posible con amor y dedicación. En cada sesión veíamos el progreso y nos dio las
+									herramientas para trabajar con él, crear el vínculo y conseguir lo que pensábamos
+									que era imposible. La frase más habitual entre nuestros amigos es: «Pensar que ahora
+									podemos estar todos tranquilamente con Merlín, pero ¿Qué habéis hecho? No nos lo
+									creemos». Pues, confiar en un profesional único como es Óscar, que nunca se rinde.
+								</p>
+								<p class="justificado">Nuestra aventura con Oscar no termina ahí. Hace un año, en
+									Navidad, un perrillo
+									abandonado se coló en la casa de campo de mi hermano. Llovía sin parar y hacía
+									muchísimo frío. No dejaba que nadie se acercara ni se movía. Mi hermano nos dijo:
+									«Houston, tenemos un problema», y ese fue su nombre a partir de entonces. Nadie en
+									la familia podía quedárselo y mis hijos me miraban a ver si dábamos el paso. Pero,
+									¿Cómo traer otro perro a casa con Merlín? Habíamos logrado que paseara más tranquilo
+									y socializara con personas, pero nunca había olido a otro perro y mucho menos
+									convivido con uno. Llamé a Oscar y, para mi sorpresa, me dijo que lo intentáramos.
+									No sería fácil, pero si funcionaba, era la situación ideal para todos. De nuevo, con
+									Oscar, conseguimos «lo imposible». El final ya lo imagináis. Tenemos dos perros
+									únicos, uno muy sociable y miedoso, otro menos sociable y «chulito», pero en casa
+									son dos peluches que nos dan alegría y cariño. Mis hijos saben, porque lo han
+									vivido, que con amor y las personas indicadas como Oscar todo es posible y que no
+									hay que rendirse ante los retos. Detrás siempre hay una GRAN recompensa.”&nbsp; <br>
+									<strong>– Lola</strong>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-5486a3a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="5486a3a" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-92184c2"
+					data-id="92184c2" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-a7212e8 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="a7212e8" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c79241e"
+									data-id="c79241e" data-element_type="column">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-4c2ebe5 elementor-widget elementor-widget-heading animated fadeInUp"
+											data-id="4c2ebe5" data-element_type="widget"
+											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h2 class="elementor-heading-title elementor-size-default">“Para
+													disfrutar en verdad de un perro, no se debe tratar de entrenarlo
+													para que sea semihumano. El punto es abrirse uno, a la posibilidad
+													de ser más perro.”</h2>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-2265295 elementor-widget elementor-widget-text-editor animated fadeInUp"
+											data-id="2265295" data-element_type="widget"
+											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Eduard Hoagland</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-282e7e8"
+									data-id="282e7e8" data-element_type="column">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-45646c9 elementor-absolute elementor-hidden-mobile elementor-widget elementor-widget-image animated fadeInUp"
+											data-id="45646c9" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="1024" height="655" src="./index_files
+													/IMG-20240225-WA0038-1024x655.jpg" class="attachment-large size-large wp-image-417" alt="entrenando"
+													sizes="(max-width: 1024px) 100vw, 1024px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-4ed6a04 elementor-hidden-desktop elementor-hidden-tablet elementor-invisible elementor-widget elementor-widget-image"
+											data-id="4ed6a04" data-element_type="widget"
+											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="1024" height="655" src="./index_files
+													/IMG-20240225-WA0038-1024x655.jpg" class="attachment-large size-large wp-image-417" alt="entrenando"
+													sizes="(max-width: 1024px) 100vw, 1024px">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-60fc27cc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="60fc27cc" data-element_type="section">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41210770"
+					data-id="41210770" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-71702465 elementor-widget elementor-widget-heading animated fadeInUp"
+							data-id="71702465" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">Testimonios de clientes</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-3c32f2c5 elementor-widget__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp"
+							data-id="3c32f2c5" data-element_type="widget"
+							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}"
+							data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p>Estas son algunas de las palabras que nuestros clientes nos han dedicado en Google
+									Reseñas.</p>
+							</div>
+						</div>
+						<section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-bca3ea3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="bca3ea3" data-element_type="section">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-69edcf8c animated fadeInUp"
+									data-id="69edcf8c" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;300&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-690d72e elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
+											data-id="690d72e" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="512" height="512" src="./index_files
+													/quote-1.png" class="attachment-large size-large wp-image-322" alt="quote icons"
+													sizes="(max-width: 512px) 100vw, 512px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-2d6590a6 elementor-widget elementor-widget-text-editor"
+											data-id="2d6590a6" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Me recomendaron a Oscar para ayudar a Mia pastora alemana de siete
+													años, venía de un síndrome de Noe completamente bloqueada, era
+													incapaz de interactuar ni conmigo ni con el entorno, pero con el
+													trabajo de Oscar su profesionalidad, paciencia y empatía ha
+													conseguido que Mia pueda disfrutar y sobre todo conmigo.</p>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-69aa20c1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+											data-id="69aa20c1" data-element_type="widget"
+											data-widget_type="divider.default">
+											<div class="elementor-widget-container">
+												<style>
+													/*! elementor - v3.19.0 - 07-02-2024 */
+													.elementor-widget-divider {
+														--divider-border-style: none;
+														--divider-border-width: 1px;
+														--divider-color: #0c0d0e;
+														--divider-icon-size: 20px;
+														--divider-element-spacing: 10px;
+														--divider-pattern-height: 24px;
+														--divider-pattern-size: 20px;
+														--divider-pattern-url: none;
+														--divider-pattern-repeat: repeat-x
+													}
+
+													.elementor-widget-divider .elementor-divider {
+														display: flex
+													}
+
+													.elementor-widget-divider .elementor-divider__text {
+														font-size: 15px;
+														line-height: 1;
+														max-width: 95%
+													}
+
+													.elementor-widget-divider .elementor-divider__element {
+														margin: 0 var(--divider-element-spacing);
+														flex-shrink: 0
+													}
+
+													.elementor-widget-divider .elementor-icon {
+														font-size: var(--divider-icon-size)
+													}
+
+													.elementor-widget-divider .elementor-divider-separator {
+														display: flex;
+														margin: 0;
+														direction: ltr
+													}
+
+													.elementor-widget-divider--view-line_icon .elementor-divider-separator,
+													.elementor-widget-divider--view-line_text .elementor-divider-separator {
+														align-items: center
+													}
+
+													.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+													.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+													.elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+													.elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+														display: block;
+														content: "";
+														border-block-end: 0;
+														flex-grow: 1;
+														border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+													}
+
+													.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+														flex-grow: 0;
+														flex-shrink: 100
+													}
+
+													.elementor-widget-divider--element-align-left .elementor-divider-separator:before {
+														content: none
+													}
+
+													.elementor-widget-divider--element-align-left .elementor-divider__element {
+														margin-left: 0
+													}
+
+													.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+														flex-grow: 0;
+														flex-shrink: 100
+													}
+
+													.elementor-widget-divider--element-align-right .elementor-divider-separator:after {
+														content: none
+													}
+
+													.elementor-widget-divider--element-align-right .elementor-divider__element {
+														margin-right: 0
+													}
+
+													.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+														flex-grow: 0;
+														flex-shrink: 100
+													}
+
+													.elementor-widget-divider--element-align-start .elementor-divider-separator:before {
+														content: none
+													}
+
+													.elementor-widget-divider--element-align-start .elementor-divider__element {
+														margin-inline-start: 0
+													}
+
+													.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+														flex-grow: 0;
+														flex-shrink: 100
+													}
+
+													.elementor-widget-divider--element-align-end .elementor-divider-separator:after {
+														content: none
+													}
+
+													.elementor-widget-divider--element-align-end .elementor-divider__element {
+														margin-inline-end: 0
+													}
+
+													.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+														border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+													}
+
+													.elementor-widget-divider--separator-type-pattern {
+														--divider-border-style: none
+													}
+
+													.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
+													.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
+													.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
+													.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
+														width: 100%;
+														min-height: var(--divider-pattern-height);
+														-webkit-mask-size: var(--divider-pattern-size) 100%;
+														mask-size: var(--divider-pattern-size) 100%;
+														-webkit-mask-repeat: var(--divider-pattern-repeat);
+														mask-repeat: var(--divider-pattern-repeat);
+														background-color: var(--divider-color);
+														-webkit-mask-image: var(--divider-pattern-url);
+														mask-image: var(--divider-pattern-url)
+													}
+
+													.elementor-widget-divider--no-spacing {
+														--divider-pattern-size: auto
+													}
+
+													.elementor-widget-divider--bg-round {
+														--divider-pattern-repeat: round
+													}
+
+													.rtl .elementor-widget-divider .elementor-divider__text {
+														direction: rtl
+													}
+
+													.e-con-inner>.elementor-widget-divider,
+													.e-con>.elementor-widget-divider {
+														width: var(--container-widget-width, 100%);
+														--flex-grow: var(--container-widget-flex-grow)
+													}
+												</style>
+												<div class="elementor-divider">
+													<span class="elementor-divider-separator">
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-798261ef elementor-widget__width-auto elementor-widget elementor-widget-image"
+											data-id="798261ef" data-element_type="widget"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="683" height="1024" src="./index_files
+													/IMG-20240223-WA00991-683x1024.jpg" class="attachment-large size-large wp-image-362" alt="mia_perro"
+													sizes="(max-width: 683px) 100vw, 683px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-6892b350 elementor-widget elementor-widget-heading"
+											data-id="6892b350" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Laura</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-4c2a83f3 elementor-widget elementor-widget-text-editor"
+											data-id="4c2a83f3" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Madrid</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3cfa88de animated fadeInUp"
+									data-id="3cfa88de" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-d5771d8 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image"
+											data-id="d5771d8" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="512" height="512" src="./index_files
+													/quote.png" class="attachment-large size-large wp-image-321" alt="quote icons"
+													sizes="(max-width: 512px) 100vw, 512px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-35dc5eb2 elementor-widget elementor-widget-text-editor"
+											data-id="35dc5eb2" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Gran profesional Óscar, muchas gracias por tu ayuda con Luna, de
+													tener una perra totalmente miedosa y desconfiada ahora tengo una
+													perra sana y feliz. Sin duda lo recomiendo. Gracias</p>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-1f00bdc7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+											data-id="1f00bdc7" data-element_type="widget"
+											data-widget_type="divider.default">
+											<div class="elementor-widget-container">
+												<div class="elementor-divider">
+													<span class="elementor-divider-separator">
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-2448455f elementor-widget__width-auto elementor-widget elementor-widget-image"
+											data-id="2448455f" data-element_type="widget"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="768" height="1024" src="./index_files
+													/IMG-20240203-WA0001-768x1024.jpg" class="attachment-large size-large wp-image-355" alt="luna dog"
+													sizes="(max-width: 768px) 100vw, 768px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-3198c025 elementor-widget elementor-widget-heading"
+											data-id="3198c025" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Raquel</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-7135947b elementor-widget elementor-widget-text-editor"
+											data-id="7135947b" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Madrid</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-57b225ae animated fadeInUp"
+									data-id="57b225ae" data-element_type="column"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;600&quot;}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-267d2088 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image"
+											data-id="267d2088" data-element_type="widget"
+											data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="512" height="512" src="./index_files
+													/quote-1.png" class="attachment-large size-large wp-image-322" alt="quote icons"
+													sizes="(max-width: 512px) 100vw, 512px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-568e41ef elementor-widget elementor-widget-text-editor"
+											data-id="568e41ef" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Gracias a él tenemos un perro equilibrado y feliz. Oscar entiende
+													perfectamente la comunicación de los perros, adiestra desde el
+													respeto y el vínculo y ayuda a los dueños a tener relaciones sanas
+													con sus compañeros perrunos. Además de ser un gran profesional es
+													una gran persona. Siempre está disponible para ayudar, para darte un
+													buen consejo y se nota que siente pasión por lo que hace.</p>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-239dffa7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+											data-id="239dffa7" data-element_type="widget"
+											data-widget_type="divider.default">
+											<div class="elementor-widget-container">
+												<div class="elementor-divider">
+													<span class="elementor-divider-separator">
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-362f4507 elementor-widget__width-auto elementor-widget elementor-widget-image"
+											data-id="362f4507" data-element_type="widget"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img loading="lazy" decoding="async" width="576" height="1024" src="./index_files
+													/telmo-576x1024.jpeg" class="attachment-large size-large wp-image-499" alt="perro telmo"
+													sizes="(max-width: 576px) 100vw, 576px">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-1d4f9a5d elementor-widget elementor-widget-heading"
+											data-id="1d4f9a5d" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h6 class="elementor-heading-title elementor-size-default">Marta</h6>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-53ac206f elementor-widget elementor-widget-text-editor"
+											data-id="53ac206f" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Madrid</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="elementor-section elementor-top-section elementor-element elementor-element-1c68012 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="1c68012" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f6def0b"
+					data-id="f6def0b" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7e17632 elementor-widget elementor-widget-text-editor"
+							data-id="7e17632" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p>©2024 Roma adiestramiento. Todos los derechos reservados. <span
+										style="text-decoration: underline;"><a href="./aviso_legal.html"><span
+												style="color: #ffffff; text-decoration: underline;">Aviso
+												legal</span></a></span>. <span style="text-decoration: underline;"><a
+											href="./cookies.html"><span
+												style="color: #ffffff; text-decoration: underline;">Cookies</span></a></span>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c585049"
+					data-id="c585049" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f64c7c9 e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+							data-id="f64c7c9" data-element_type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-widget-container">
+								<style>
+									/*! elementor - v3.19.0 - 07-02-2024 */
+									.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+									.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+									.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+										line-height: 1;
+										font-size: 0
+									}
+
+									.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+										display: inline-grid
+									}
+
+									.elementor-widget-social-icons .elementor-grid {
+										grid-column-gap: var(--grid-column-gap, 5px);
+										grid-row-gap: var(--grid-row-gap, 5px);
+										grid-template-columns: var(--grid-template-columns);
+										justify-content: var(--justify-content, center);
+										justify-items: var(--justify-content, center)
+									}
+
+									.elementor-icon.elementor-social-icon {
+										font-size: var(--icon-size, 25px);
+										line-height: var(--icon-size, 25px);
+										width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
+										height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+									}
+
+									.elementor-social-icon {
+										--e-social-icon-icon-color: #fff;
+										display: inline-flex;
+										background-color: #69727d;
+										align-items: center;
+										justify-content: center;
+										text-align: center;
+										cursor: pointer
+									}
+
+									.elementor-social-icon i {
+										color: var(--e-social-icon-icon-color)
+									}
+
+									.elementor-social-icon svg {
+										fill: var(--e-social-icon-icon-color)
+									}
+
+									.elementor-social-icon:last-child {
+										margin: 0
+									}
+
+									.elementor-social-icon:hover {
+										opacity: .9;
+										color: #fff
+									}
+
+									.elementor-social-icon-android {
+										background-color: #a4c639
+									}
+
+									.elementor-social-icon-apple {
+										background-color: #999
+									}
+
+									.elementor-social-icon-behance {
+										background-color: #1769ff
+									}
+
+									.elementor-social-icon-bitbucket {
+										background-color: #205081
+									}
+
+									.elementor-social-icon-codepen {
+										background-color: #000
+									}
+
+									.elementor-social-icon-delicious {
+										background-color: #39f
+									}
+
+									.elementor-social-icon-deviantart {
+										background-color: #05cc47
+									}
+
+									.elementor-social-icon-digg {
+										background-color: #005be2
+									}
+
+									.elementor-social-icon-dribbble {
+										background-color: #ea4c89
+									}
+
+									.elementor-social-icon-elementor {
+										background-color: #d30c5c
+									}
+
+									.elementor-social-icon-envelope {
+										background-color: #ea4335
+									}
+
+									.elementor-social-icon-facebook,
+									.elementor-social-icon-facebook-f {
+										background-color: #3b5998
+									}
+
+									.elementor-social-icon-flickr {
+										background-color: #0063dc
+									}
+
+									.elementor-social-icon-foursquare {
+										background-color: #2d5be3
+									}
+
+									.elementor-social-icon-free-code-camp,
+									.elementor-social-icon-freecodecamp {
+										background-color: #006400
+									}
+
+									.elementor-social-icon-github {
+										background-color: #333
+									}
+
+									.elementor-social-icon-gitlab {
+										background-color: #e24329
+									}
+
+									.elementor-social-icon-globe {
+										background-color: #69727d
+									}
+
+									.elementor-social-icon-google-plus,
+									.elementor-social-icon-google-plus-g {
+										background-color: #dd4b39
+									}
+
+									.elementor-social-icon-houzz {
+										background-color: #7ac142
+									}
+
+									.elementor-social-icon-instagram {
+										background-color: #262626
+									}
+
+									.elementor-social-icon-jsfiddle {
+										background-color: #487aa2
+									}
+
+									.elementor-social-icon-link {
+										background-color: #818a91
+									}
+
+									.elementor-social-icon-linkedin,
+									.elementor-social-icon-linkedin-in {
+										background-color: #0077b5
+									}
+
+									.elementor-social-icon-medium {
+										background-color: #00ab6b
+									}
+
+									.elementor-social-icon-meetup {
+										background-color: #ec1c40
+									}
+
+									.elementor-social-icon-mixcloud {
+										background-color: #273a4b
+									}
+
+									.elementor-social-icon-odnoklassniki {
+										background-color: #f4731c
+									}
+
+									.elementor-social-icon-pinterest {
+										background-color: #bd081c
+									}
+
+									.elementor-social-icon-product-hunt {
+										background-color: #da552f
+									}
+
+									.elementor-social-icon-reddit {
+										background-color: #ff4500
+									}
+
+									.elementor-social-icon-rss {
+										background-color: #f26522
+									}
+
+									.elementor-social-icon-shopping-cart {
+										background-color: #4caf50
+									}
+
+									.elementor-social-icon-skype {
+										background-color: #00aff0
+									}
+
+									.elementor-social-icon-slideshare {
+										background-color: #0077b5
+									}
+
+									.elementor-social-icon-snapchat {
+										background-color: #fffc00
+									}
+
+									.elementor-social-icon-soundcloud {
+										background-color: #f80
+									}
+
+									.elementor-social-icon-spotify {
+										background-color: #2ebd59
+									}
+
+									.elementor-social-icon-stack-overflow {
+										background-color: #fe7a15
+									}
+
+									.elementor-social-icon-steam {
+										background-color: #00adee
+									}
+
+									.elementor-social-icon-stumbleupon {
+										background-color: #eb4924
+									}
+
+									.elementor-social-icon-telegram {
+										background-color: #2ca5e0
+									}
+
+									.elementor-social-icon-thumb-tack {
+										background-color: #1aa1d8
+									}
+
+									.elementor-social-icon-tripadvisor {
+										background-color: #589442
+									}
+
+									.elementor-social-icon-tumblr {
+										background-color: #35465c
+									}
+
+									.elementor-social-icon-twitch {
+										background-color: #6441a5
+									}
+
+									.elementor-social-icon-twitter {
+										background-color: #1da1f2
+									}
+
+									.elementor-social-icon-viber {
+										background-color: #665cac
+									}
+
+									.elementor-social-icon-vimeo {
+										background-color: #1ab7ea
+									}
+
+									.elementor-social-icon-vk {
+										background-color: #45668e
+									}
+
+									.elementor-social-icon-weibo {
+										background-color: #dd2430
+									}
+
+									.elementor-social-icon-weixin {
+										background-color: #31a918
+									}
+
+									.elementor-social-icon-whatsapp {
+										background-color: #25d366
+									}
+
+									.elementor-social-icon-wordpress {
+										background-color: #21759b
+									}
+
+									.elementor-social-icon-xing {
+										background-color: #026466
+									}
+
+									.elementor-social-icon-yelp {
+										background-color: #af0606
+									}
+
+									.elementor-social-icon-youtube {
+										background-color: #cd201f
+									}
+
+									.elementor-social-icon-500px {
+										background-color: #0099e5
+									}
+
+									.elementor-shape-rounded .elementor-icon.elementor-social-icon {
+										border-radius: 10%
+									}
+
+									.elementor-shape-circle .elementor-icon.elementor-social-icon {
+										border-radius: 50%
+									}
+								</style>
+								<div class="elementor-social-icons-wrapper elementor-grid">
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-e56710e"
+											href="https://www.instagram.com/roma.adiestramientocanino/" target="_blank">
+											<span class="elementor-screen-only">Instagram</span>
+											<svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+												</path>
+											</svg> </a>
+									</span>
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-49cd13e"
+											href="https://www.facebook.com/Roma.adiestramientocanino/" target="_blank">
+											<span class="elementor-screen-only">Facebook</span>
+											<svg class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+												</path>
+											</svg> </a>
+									</span>
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-087dcc5"
+											href="mailto:oscarromasastre@gmail.com" target="_blank">
+											<span class="elementor-screen-only">Envelope</span>
+											<svg class="e-font-icon-svg e-far-envelope" viewBox="0 0 512 512"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z">
+												</path>
+											</svg> </a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<link rel="stylesheet" id="e-animations-css" href="./index_files
+	/animations.min.css" media="all">
+	<script id="wp-block-template-skip-link-js-after">
+		(function () {
+			var skipLinkTarget = document.querySelector('main'),
+				sibling,
+				skipLinkTargetID,
+				skipLink;
+
+			// Early exit if a skip-link target can't be located.
+			if (!skipLinkTarget) {
+				return;
+			}
+
+			/*
+			 * Get the site wrapper.
+			 * The skip-link will be injected in the beginning of it.
+			 */
+			sibling = document.querySelector('.wp-site-blocks');
+
+			// Early exit if the root element was not found.
+			if (!sibling) {
+				return;
+			}
+
+			// Get the skip-link target's ID, and generate one if it doesn't exist.
+			skipLinkTargetID = skipLinkTarget.id;
+			if (!skipLinkTargetID) {
+				skipLinkTargetID = 'wp--skip-link--target';
+				skipLinkTarget.id = skipLinkTargetID;
+			}
+
+			// Create the skip link.
+			skipLink = document.createElement('a');
+			skipLink.classList.add('skip-link', 'screen-reader-text');
+			skipLink.href = '#' + skipLinkTargetID;
+			skipLink.innerHTML = 'Saltar al contenido';
+
+			// Inject the skip link.
+			sibling.parentElement.insertBefore(skipLink, sibling);
+		}());
+
+	</script>
+
+	<script src="./index_files
+	/core.min.js.descarga" id="jquery-ui-core-js"></script>
+	<script src="./index_files
+	/mouse.min.js.descarga" id="jquery-ui-mouse-js"></script>
+	<script src="./index_files
+	/draggable.min.js.descarga" id="jquery-ui-draggable-js"></script>
+	<script src="./index_files
+	/underscore.min.js.descarga" id="underscore-js"></script>
+	<script src="./index_files
+	/backbone.min.js.descarga" id="backbone-js"></script>
+	<script src="./index_files
+	/backbone.marionette.min.js.descarga" id="backbone-marionette-js"></script>
+	<script src="./index_files
+	/backbone.radio.min.js.descarga" id="backbone-radio-js"></script>
+	<script src="./index_files
+	/common-modules.min.js.descarga" id="elementor-common-modules-js"></script>
+	<script id="elementor-web-cli-js-before">
+		var elementorWebCliConfig = { "isDebug": false, "urls": { "rest": "http:\/\/localhost\/romaadi\/index.php?rest_route=\/", "assets": "http:\/\/localhost\/romaadi\/wp-content\/plugins\/elementor\/assets\/" }, "nonce": "27692e712a", "version": "3.19.2" };
+		var elementorWebCliConfig = { "isDebug": false, "urls": { "rest": "http:\/\/localhost\/romaadi\/index.php?rest_route=\/", "assets": "http:\/\/localhost\/romaadi\/wp-content\/plugins\/elementor\/assets\/" }, "nonce": "27692e712a", "version": "3.19.2" };
+	</script>
+	<script src="./index_files
+	/web-cli.min.js.descarga" id="elementor-web-cli-js"></script>
+	<script src="./index_files
+	/dialog.min.js.descarga" id="elementor-dialog-js"></script>
+	<script src="./index_files
+	/wp-polyfill-inert.min.js.descarga" id="wp-polyfill-inert-js"></script>
+	<script src="./index_files
+	/wp-polyfill.min.js.descarga" id="wp-polyfill-js"></script>
+	<script src="./index_files
+	/hooks.min.js.descarga" id="wp-hooks-js"></script>
+	<script src="./index_files
+	/i18n.min.js.descarga" id="wp-i18n-js"></script>
+	<script id="elementor-common-js-before">
+		var elementorCommonConfig = { "version": "3.19.2", "isRTL": false, "isDebug": false, "isElementorDebug": false, "activeModules": ["ajax", "finder", "connect", "event-tracker"], "experimentalFeatures": { "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "block_editor_assets_optimize": true, "ai-layout": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true }, "urls": { "assets": "http:\/\/localhost\/romaadi\/wp-content\/plugins\/elementor\/assets\/", "rest": "http:\/\/localhost\/romaadi\/index.php?rest_route=\/" }, "filesUpload": { "unfilteredFiles": false }, "library_connect": { "is_connected": false, "subscription_plans": { "free": { "label": null, "promotion_url": null, "color": null }, "essential": { "label": "Pro", "promotion_url": "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro", "color": "#92003B" }, "essential-oct2023": { "label": "Advanced", "promotion_url": "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro", "color": "#92003B" }, "advanced": { "label": "Advanced", "promotion_url": "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro", "color": "#92003B" }, "expert": { "label": "Expert", "promotion_url": "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro", "color": "#92003B" }, "agency": { "label": "Agency", "promotion_url": "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro", "color": "#92003B" } }, "base_access_level": 0, "base_access_tier": "free", "current_access_level": 0, "current_access_tier": "free" }, "ajax": { "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin-ajax.php", "nonce": "6f7ddc0c1c" }, "finder": { "data": { "edit": { "title": "Editar", "dynamic": true, "name": "edit" }, "general": { "title": "General", "dynamic": false, "items": { "saved-templates": { "title": "Plantillas guardadas", "icon": "library-save", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library", "keywords": ["template", "section", "page", "library"] }, "system-info": { "title": "Informaci\u00f3n del sistema", "icon": "info-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-system-info", "keywords": ["system", "info", "environment", "elementor"] }, "role-manager": { "title": "Gestor de perfiles", "icon": "person", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-role-manager", "keywords": ["role", "manager", "user", "elementor"] }, "knowledge-base": { "title": "Base de conocimiento", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=go_knowledge_base_site", "keywords": ["help", "knowledge", "docs", "elementor"] }, "theme-builder": { "title": "Maquetador de temas", "icon": "library-save", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-app&ver=3.19.2#site-editor\/promotion", "keywords": ["template", "header", "footer", "single", "archive", "search", "404", "library"] }, "kit-library": { "title": "Biblioteca de kits", "icon": "kit-parts", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-app&ver=3.19.2#\/kit-library", "keywords": ["kit library", "kit", "library", "site parts", "parts", "assets", "templates"] } }, "name": "general" }, "create": { "title": "Crear", "dynamic": false, "items": { "page": { "title": "A\u00f1adir una nueva plantilla de p\u00e1gina", "icon": "plus-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=378b59a2ec", "keywords": ["A\u00f1adir una nueva plantilla de p\u00e1gina", "post", "page", "template", "new", "create"] }, "section": { "title": "A\u00f1adir nueva Secci\u00f3n", "icon": "plus-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=section&_wpnonce=378b59a2ec", "keywords": ["A\u00f1adir nueva Secci\u00f3n", "post", "page", "template", "new", "create"] }, "container": { "title": "A\u00f1adir nueva Contenedor", "icon": "plus-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=container&_wpnonce=378b59a2ec", "keywords": ["A\u00f1adir nueva Contenedor", "post", "page", "template", "new", "create"] }, "wp-post": { "title": "A\u00f1adir nueva Entrada", "icon": "plus-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=378b59a2ec", "keywords": ["A\u00f1adir nueva Entrada", "post", "page", "template", "new", "create"] }, "wp-page": { "title": "A\u00f1adir nueva P\u00e1gina", "icon": "plus-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=378b59a2ec", "keywords": ["A\u00f1adir nueva P\u00e1gina", "post", "page", "template", "new", "create"] }, "landing-page": { "title": "A\u00f1adir nueva P\u00e1gina de destino", "icon": "plus-circle-o", "url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=378b59a2ec#library", "keywords": ["A\u00f1adir nueva P\u00e1gina de destino", "post", "page", "template", "new", "create"] } }, "name": "create" }, "site": { "title": "Sitio", "dynamic": false, "items": { "homepage": { "title": "P\u00e1gina de inicio", "url": "http:\/\/localhost\/romaadi", "icon": "home-heart", "keywords": ["home", "page"] }, "wordpress-dashboard": { "title": "Escritorio", "icon": "dashboard", "url": "http:\/\/localhost\/romaadi\/wp-admin\/", "keywords": ["dashboard", "wordpress"] }, "wordpress-menus": { "title": "Men\u00fas", "icon": "wordpress", "url": "http:\/\/localhost\/romaadi\/wp-admin\/nav-menus.php", "keywords": ["menu", "wordpress"] }, "wordpress-themes": { "title": "Temas", "icon": "wordpress", "url": "http:\/\/localhost\/romaadi\/wp-admin\/themes.php", "keywords": ["themes", "wordpress"] }, "wordpress-customizer": { "title": "Personalizador", "icon": "wordpress", "url": "http:\/\/localhost\/romaadi\/wp-admin\/customize.php", "keywords": ["customizer", "wordpress"] }, "wordpress-plugins": { "title": "Plugins", "icon": "wordpress", "url": "http:\/\/localhost\/romaadi\/wp-admin\/plugins.php", "keywords": ["plugins", "wordpress"] }, "wordpress-users": { "title": "Usuarios", "icon": "wordpress", "url": "http:\/\/localhost\/romaadi\/wp-admin\/users.php", "keywords": ["users", "profile", "wordpress"] }, "apps": { "title": "Aplicaciones", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-apps", "icon": "apps", "keywords": ["apps", "addon", "plugin", "extension", "integration"] } }, "name": "site" }, "settings": { "title": "Ajustes", "dynamic": false, "items": { "general-settings": { "title": "Ajustes generales", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor", "keywords": ["general", "settings", "elementor"] }, "advanced": { "title": "Avanzado", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor#tab-advanced", "keywords": ["advanced", "settings", "elementor"] }, "experiments": { "title": "Experimentos", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor#tab-experiments", "keywords": ["settings", "elementor", "experiments"] }, "features": { "title": "Caracteristicas", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor#tab-experiments", "keywords": ["settings", "elementor", "features"] }, "element-manager": { "title": "Gestor de elementos", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-element-manager", "keywords": ["settings", "elements", "widgets", "manager"] } }, "name": "settings" }, "tools": { "title": "Herramientas", "dynamic": false, "items": { "tools": { "title": "Herramientas", "icon": "tools", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-tools", "keywords": ["tools", "regenerate css", "safe mode", "debug bar", "sync library", "elementor"] }, "replace-url": { "title": "Reemplazar URL", "icon": "tools", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url", "keywords": ["tools", "replace url", "domain", "elementor"] }, "maintenance-mode": { "title": "Modo de mantenimiento", "icon": "tools", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode", "keywords": ["tools", "maintenance", "coming soon", "elementor"] }, "import-export": { "title": "Importar \/ Exportar", "icon": "import-export", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit", "keywords": ["tools", "import export", "import", "export", "kit"] }, "version-control": { "title": "Control de versiones", "icon": "time-line", "url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-tools#tab-versions", "keywords": ["tools", "version", "control", "rollback", "beta", "elementor"] } }, "name": "tools" } } }, "connect": [], "event-tracker": { "isUserDataShared": false } };
+	</script>
+	<script src="./index_files
+	/common.min.js.descarga" id="elementor-common-js"></script>
+	<script id="elementor-app-loader-js-before">
+		var elementorAppConfig = { "menu_url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-app&ver=3.19.2#site-editor\/promotion", "assets_url": "http:\/\/localhost\/romaadi\/wp-content\/plugins\/elementor\/assets\/", "pages_url": "http:\/\/localhost\/romaadi\/wp-admin\/edit.php?post_type=page", "return_url": "http:\/\/localhost\/romaadi\/wp-admin\/", "hasPro": false, "admin_url": "http:\/\/localhost\/romaadi\/wp-admin\/", "login_url": "http:\/\/localhost\/romaadi\/wp-login.php", "base_url": "http:\/\/localhost\/romaadi\/wp-admin\/admin.php?page=elementor-app&ver=3.19.2", "site-editor": [], "import-export": [], "kit-library": [], "onboarding": [] };
+	</script>
+	<script src="./index_files
+	/frontend-modules.min.js.descarga" id="elementor-frontend-modules-js"></script>
+	<script src="./index_files
+	/waypoints.min.js.descarga" id="elementor-waypoints-js"></script>
+	<script id="elementor-frontend-js-before">
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Compartir en Facebook", "shareOnTwitter": "Compartir en Twitter", "pinIt": "Pinear", "download": "Descargar", "downloadImage": "Descargar imagen", "fullscreen": "Pantalla completa", "zoom": "Zoom", "share": "Compartir", "playVideo": "Reproducir v\u00eddeo", "previous": "Anterior", "next": "Siguiente", "close": "Cerrar", "a11yCarouselWrapperAriaLabel": "Carrusel | Scroll horizontal: Flecha izquierda y derecha", "a11yCarouselPrevSlideMessage": "Diapositiva anterior", "a11yCarouselNextSlideMessage": "Diapositiva siguiente", "a11yCarouselFirstSlideMessage": "Esta es la primera diapositiva", "a11yCarouselLastSlideMessage": "Esta es la \u00faltima diapositiva", "a11yCarouselPaginationBulletMessage": "Ir a la diapositiva" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "M\u00f3vil vertical", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "M\u00f3vil horizontal", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tableta vertical", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tableta horizontal", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Port\u00e1til", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Pantalla grande", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.19.2", "is_static": false, "experimentalFeatures": { "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "block_editor_assets_optimize": true, "ai-layout": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true }, "urls": { "assets": "http:\/\/localhost\/romaadi\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "body_background_background": "classic", "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 312, "title": "Inicio%20%E2%80%93%20Roma%20Adiestramiento", "excerpt": "", "featuredImage": false }, "user": { "roles": ["administrator"] } };
+	</script>
+	<script src="./index_files
+	/frontend.min.js.descarga" id="elementor-frontend-js"></script>
+	<span id="elementor-device-mode" class="elementor-screen-only"></span>
+	<script src="./index_files
+	/hoverintent-js.min.js.descarga" id="hoverintent-js-js"></script>
+	<div id="cookie-notice" role="dialog"
+		class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom cn-effect-fade" aria-label="Cookie Notice"
+		style="background-color: rgba(50,50,58,1);">
+		<div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text"
+				class="cn-text-container">Usamos cookies para asegurar el buen funcionamiento de esta web.
+				Si continúas usando este sitio, asumiremos que estás de acuerdo con ello.</span><span
+				id="cn-notice-buttons" class="cn-buttons-container"><a href="http://localhost/romaadi/?page_id=3#"
+					id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Aceptar"
+					style="background-color: #60492C">Aceptar</a></span><span id="cn-close-notice"
+				data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+	</div>
+</body>
+
+</html>
